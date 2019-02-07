@@ -1,0 +1,20 @@
+
+.header {
+  background: $light-gray;
+  box-sizing: border-box;
+  padding-top: 65px;
+  height: 230px;
+  .logo {
+    float: left;
+  }
+  .phones {
+    float: right;
+    color: $dark-gray;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 1px;
+    font-family: OpenSansCondensed;
+    margin-right: 24px;
+    padding-top: 3px;
+  }
+}
