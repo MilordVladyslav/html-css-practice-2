@@ -1,7 +1,11 @@
 .footer {
-  position: relative;
-  bottom: 0;
   left: 0;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -220px;
+  width: 100%;
   .wrapper {
     display: flex;
   }
@@ -15,6 +19,8 @@
   }
   .info {
     width: 350px;
+    padding-left: 10px;
+    box-sizing: border-box;
     a {
       text-decoration: none;
     }

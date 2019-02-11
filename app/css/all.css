@@ -1,24 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
 @font-face {
   font-family: OpenSansCondensed;
   src: url("../fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf"); }
-
-@font-face {
-  font-family: PT_Sans;
-  src: url("../fonts/PT_Sans/PT_Sans-Web-Regular.ttf"); }
-
-.wrapper {
-  width: 1005px;
-  margin: 0 auto; }
-
-body {
-  font-family: PT_Sans;
-  font-size: 14px;
-  line-height: 22px; }
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both; }
 
 .header {
   background: #DBDBDB;
@@ -67,7 +50,7 @@ body {
 
 .content {
   padding-top: 31px;
-  margin-bottom: 195px; }
+  padding-bottom: 195px; }
 
 .topics {
   margin-bottom: 23px; }
@@ -101,7 +84,7 @@ body {
     float: right; }
 
 .content-right {
-  padding: 22px 0px 20px 411px;
+  padding: 22px 20px 20px 411px;
   letter-spacing: 1px;
   color: #767676; }
   .content-right .title-right {
@@ -111,9 +94,13 @@ body {
     margin-bottom: 22px; }
 
 .footer {
-  position: relative;
-  bottom: 0;
   left: 0;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -220px;
+  width: 100%;
   background: #767676;
   padding-top: 44px;
   height: 220px;
@@ -127,7 +114,10 @@ body {
   .footer a {
     color: white; }
   .footer .info {
-    width: 350px; }
+    width: 350px;
+    padding-left: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
     .footer .info a {
       text-decoration: none; }
   .footer .footer-navigation {
@@ -142,3 +132,29 @@ body {
   .footer .description {
     position: relative;
     top: -6px; }
+
+@media screen and (max-width: 1248px) {
+  .slider {
+    display: none; } }
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto; }
+
+body {
+  font-family: PT Sans;
+  font-size: 14px;
+  line-height: 22px; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+html,
+body {
+  height: 100%; }
+
+.main-wrapper {
+  position: relative;
+  min-height: 100%; }

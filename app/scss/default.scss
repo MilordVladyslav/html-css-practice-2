@@ -1,10 +1,10 @@
 .wrapper {
-  width: 1005px;
+  width: 1000px;
   margin: 0 auto;
 }
 
 body {
-  font-family: PT_Sans;
+  font-family: PT Sans;
   font-size: 14px;
   line-height: 22px;
 }
@@ -13,4 +13,17 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+html,
+body {
+  height: 100%;
+}
+.main-wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+
 }
