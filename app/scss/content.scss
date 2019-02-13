@@ -9,6 +9,8 @@
 
 .aside {
   width: 350px;
+  max-height: 600px;
+  overflow-y: auto;
   background: $dark-gray;
   color: white;
   padding: 24px 34px;
