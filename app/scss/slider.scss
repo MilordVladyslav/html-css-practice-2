@@ -2,4 +2,9 @@
   background: $slider-background;
   height: 400px;
   overflow: hidden;
+  .img {
+    top: -60px;
+    left: -128px;
+    position: relative;
+  }
 }
